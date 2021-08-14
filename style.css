@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: 100vh;
+    
+    background-image: url('ferb.webp')  ;
+    background-repeat: no-repeat;
+    background-size: 43em;
+}
+
+
+
+header{
+    background:#482ff7;
+    height: 3.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+textarea{
+    height: 11em;
+    width: 20em;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+button{
+    margin: 7px;
+    height: 25px;
+    width: 80px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 7px;
+     background:#482ff7; 
+    cursor: pointer;
+}
+
+output{
+    height: 11em;
+    width: 20em;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #482ff7;
+    height: 3.7em;
+    width: 100vw;
+     justify-content: center;
+     align-items: center;
+    font-size: 16px;
+    margin-top: 2.5rem;
+    border-top: 2px solid black;
+     
+    
+}
+
+.foot1{
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.instagram{
+    height: 2.5rem;
+    margin-top: 6px;
+    margin-left: 1rem;
+}
+
+
+    .icon{
+        height: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 10px;
+        
+        margin-right: 1rem;
+        
+        
+        
+    } 
+
+
+    .github{
+        margin-left: 1rem;
+    }
+
+    .foot2{
+        margin-top: 1rem;
+        font-family: 'Acme', sans-serif;
+        color: white;
+    }
+
+/* ferb */
+
